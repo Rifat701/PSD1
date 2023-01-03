@@ -1,0 +1,698 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* navbar start */
+
+.navbarbg {
+  width: 100%;
+  height: 100px;
+  background-color: #537543;
+}
+.navbarbg .navbarbg_content .logo,
+.list,
+.search {
+  float: left;
+}
+.navbarbg .navbarbg_content .logo {
+  padding: 12px 0 0 90px;
+}
+.navbarbg .navbarbg_content .list {
+  padding: 37px 0 0 170px;
+}
+.navbarbg .navbarbg_content .list a {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-transform: uppercase;
+  padding: 0px 0 0 50px;
+}
+.navbarbg .navbarbg_content .search {
+  padding: 30px 0 0 150px;
+}
+
+/* navbar end */
+
+/* group 1 start */
+
+.group1bg {
+  width: 100%;
+  height: 765px;
+  background-image: url(img/group1-background.png);
+  color: white;
+}
+.group1bg .group1bg_content .group1bg_text {
+  padding: 200px 0 0 150px;
+}
+.group1bg .group1bg_content .group1bg_text .first-line h1 {
+  font-family: "Berkshire Swash";
+  font-size: 48px;
+  font-weight: 800;
+  padding: 0 0 0 70px;
+  line-height: 0px;
+}
+.group1bg .group1bg_content .group1bg_text .second-line h1 {
+  font-family: "Berkshire Swash";
+  font-size: 100px;
+  font-weight: 800;
+}
+.group1bg .group1bg_content .group1bg_text p {
+  padding-top: 30px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.group1bg .group1bg_content .group1bg_text .group1-a {
+  padding: 75px 0 0 0;
+}
+.group1bg .group1bg_content .group1bg_text a {
+  color: #3e5831;
+  text-transform: capitalize;
+  font-size: 18px;
+  background-color: #e6ca48;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+/* group 1 end */
+
+/* group 2 start */
+
+.group2bg {
+  width: 100%;
+  height: 834px;
+  background-image: url(img/group2-background.png);
+}
+.group2bg .group2bg_content {
+  padding: 175px 0 0 800px;
+  color: #537543;
+}
+.group2bg .group2bg_content h2 {
+  text-transform: capitalize;
+  font-family: "Berkshire Swash";
+  font-size: 55px;
+  font-weight: 800;
+}
+.group2bg .group2bg_content h4 {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.group2bg .group2bg_content p {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 20px;
+  letter-spacing: 1px;
+}
+.group2bg .group2bg_content .group2-a {
+  padding-top: 55px;
+}
+.group2bg .group2bg_content .group2-a a {
+  color: #3e5831;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 550;
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px 40px;
+}
+
+/* group 2 end */
+
+/* group 3 start */
+
+.group3bg {
+  width: 100%;
+  height: 530px;
+  background-color: #537543;
+}
+.group3bg .group3bg_content .group3-row1,
+.group3-row2,
+.group3-row3 {
+  float: left;
+  text-align: center;
+  color: white;
+}
+.group3bg .group3bg_content .group3-row1 {
+  padding: 105px 0 0 160px;
+}
+.group3bg .group3bg_content .group3-row1 h4 {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  padding-top: 45px;
+}
+.group3bg .group3bg_content .group3-row1 p {
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.group3bg .group3bg_content .group3-row2 {
+  padding: 105px 0 0 150px;
+}
+.group3bg .group3bg_content .group3-row2 h4 {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  padding-top: 45px;
+}
+.group3bg .group3bg_content .group3-row2 p {
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.group3bg .group3bg_content .group3-row3 {
+  padding: 105px 0 0 150px;
+}
+.group3bg .group3bg_content .group3-row3 h4 {
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  padding-top: 45px;
+}
+.group3bg .group3bg_content .group3-row3 p {
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+/* group 3 end */
+
+/* group 4 start */
+
+.group4bg {
+  width: 100%;
+  height: 1220px;
+  background-image: url(img/group4-background.png);
+}
+.group4bg .group4bg_content .group4-text {
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+}
+.group4bg .group4bg_content .group4-text h3 {
+  font-family: "Berkshire Swash";
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: 6px;
+}
+.group4bg .group4bg_content .group4-text p {
+  font-size: 22px;
+  letter-spacing: 3px;
+  padding-top: 1px;
+}
+.group4bg .group4bg_content .group4-chef .group4-row1 {
+  float: left;
+  width: 330px;
+  height: 570px;
+  background-color: #537543;
+  margin: 85px 0 0 100px;
+  border-radius: 10px;
+}
+
+.group4bg .group4bg_content .group4-chef .group4-row2 {
+  float: left;
+  width: 330px;
+  height: 570px;
+  background-color: #537543;
+  margin: 85px 0 0 85px;
+  border-radius: 10px;
+}
+
+.group4bg .group4bg_content .group4-chef .group4-row3 {
+  float: left;
+  width: 330px;
+  height: 570px;
+  background-color: #537543;
+  margin: 85px 0 0 85px;
+  border-radius: 10px;
+}
+.group4bg .group4bg_content .group4-chef .group4-row1 img {
+  border-radius: 10px;
+  width: 100%;
+  height: 490px;
+  padding-bottom: 8px;
+}
+.group4bg .group4bg_content .group4-chef .group4-row2 img {
+  border-radius: 10px;
+  width: 100%;
+  height: 490px;
+  padding-bottom: 8px;
+}
+.group4bg .group4bg_content .group4-chef .group4-row3 img {
+  border-radius: 10px;
+  width: 100%;
+  height: 490px;
+  padding-bottom: 8px;
+}
+.group4bg .group4bg_content .group4-chef .group4-row1,
+.group4-row2,
+.group4-row3,
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.group4bg .group4bg_content .group4-chef .group4-row1 p {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+}
+.group4bg .group4bg_content .group4-chef .group4-row2 p {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+}
+.group4bg .group4bg_content .group4-chef .group4-row3 p {
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  letter-spacing: 2px;
+}
+.group4bg .group4bg_content .group4-chef {
+  width: 100%;
+  height: 740px;
+}
+.group4bg .group4bg_content .group4-end p {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 2px;
+  padding-top: 80px;
+}
+
+/* group 4 end */
+
+/* group 5 start */
+
+.group5bg {
+  width: 100%;
+  height: 600px;
+  background-image: url(img/group5-background.png);
+}
+.group5bg .group5bg_content .group5-img {
+  padding: 110px 0 0 95px;
+  float: left;
+}
+.group5bg .group5bg_content .group5-img img {
+  width: 500px;
+  height: 400px;
+}
+.group5bg .group5bg_content .group5-text {
+  float: left;
+  padding: 116px 0 0 110px;
+  color: white;
+}
+.group5bg .group5bg_content .group5-text h2 {
+  font-weight: 400;
+  font-size: 40px;
+}
+.group5bg .group5bg_content .group5-text p {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 40px;
+}
+.group5bg .group5bg_content .group5-a {
+  padding-top: 70px;
+}
+.group5bg .group5bg_content .group5-a a {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: capitalize;
+  background-color: white;
+  padding: 10px 33px;
+  border-radius: 30px;
+  color: #3e5831;
+}
+
+/* group 5 end */
+
+/* group 6 start */
+
+.group6bg {
+  width: 100%;
+  height: 595px;
+  background-image: url(img/group6-background.png);
+}
+.group6bg .group6bg_content {
+  text-align: center;
+  color: white;
+}
+.group6bg .group6bg_content h3 {
+  font-family: "Berkshire Swash";
+  font-size: 75px;
+  font-weight: 800;
+  padding-top: 110px;
+}
+.group6bg .group6bg_content p {
+  font-size: 25px;
+  padding-top: 42px;
+  letter-spacing: 1px;
+}
+.group6bg .group6bg_content h5 {
+  font-size: 25px;
+  padding-top: 42px;
+}
+.group6bg .group6bg_content h6 {
+  font-size: 25px;
+  font-weight: 400;
+  padding-top: 42px;
+}
+
+/* group 6 end */
+
+/* group 7 start */
+
+.group7bg {
+  width: 100%;
+  height: 1680px;
+  background-image: url(img/group7-background.png);
+}
+.group7bg .group7bg_content .group7-text {
+  text-align: center;
+  color: #537942;
+  padding-top: 145px;
+}
+.group7bg .group7bg_content .group7-text h3 {
+  font-size: 70px;
+  font-weight: 700;
+}
+.group7bg .group7bg_content .group7-text h6 {
+  padding-top: 12px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.group7bg .group7bg_content .group7-text p {
+  padding-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.group7bg .group7bg_content .group7-row1 {
+  padding: 150px 0 0 50px;
+  color: white;
+}
+.group7bg .group7bg_content .group7-row1 .aliment1 .img1,
+.aliment1-text {
+  float: left;
+}
+.group7bg .group7bg_content .group7-row1 .aliment1 h3 {
+  font-size: 25px;
+  padding: 55px 0 10px 30px;
+}
+.group7bg .group7bg_content .group7-row1 .aliment1 h4 {
+  font-size: 40px;
+  padding: 0px 0 10px 30px;
+  font-weight: 400;
+}
+.group7bg .group7bg_content .group7-row1 .aliment1 p {
+  font-size: 16px;
+  padding: 0px 0 10px 30px;
+}
+.group7bg .group7bg_content .group7-row1 .aliment1,
+.aliment2 {
+  float: left;
+}
+
+.group7bg .group7bg_content .group7-row1 .aliment2 .img2,
+.aliment2-text {
+  float: left;
+}
+.group7bg .group7bg_content .group7-row1 .aliment2 h3 {
+  font-size: 25px;
+  padding: 55px 0 10px 30px;
+}
+.group7bg .group7bg_content .group7-row1 .aliment2 h4 {
+  font-size: 40px;
+  padding: 0px 0 10px 30px;
+  font-weight: 400;
+}
+.group7bg .group7bg_content .group7-row1 .aliment2 p {
+  font-size: 16px;
+  padding: 0px 0 10px 30px;
+}
+
+.group7bg .group7bg_content .group7-row2 {
+  padding: 150px 0 0 50px;
+  color: white;
+}
+.group7bg .group7bg_content .group7-row2 .aliment1 .img1,
+.aliment1-text {
+  float: left;
+}
+.group7bg .group7bg_content .group7-row2 .aliment1 h3 {
+  font-size: 25px;
+  padding: 55px 0 10px 55px;
+}
+.group7bg .group7bg_content .group7-row2 .aliment1 h4 {
+  font-size: 40px;
+  padding: 0px 0 10px 55px;
+  font-weight: 400;
+}
+.group7bg .group7bg_content .group7-row2 .aliment1 p {
+  font-size: 16px;
+  padding: 0px 0 10px 55px;
+}
+.group7bg .group7bg_content .group7-row2 .aliment1,
+.aliment2 {
+  float: left;
+}
+
+.group7bg .group7bg_content .group7-row2 .aliment2 .img2,
+.aliment2-text {
+  float: left;
+}
+.group7bg .group7bg_content .group7-row2 .aliment2 h3 {
+  font-size: 25px;
+  padding: 55px 0 10px 10px;
+}
+.group7bg .group7bg_content .group7-row2 .aliment2 h4 {
+  font-size: 40px;
+  padding: 0px 0 10px 10px;
+  font-weight: 400;
+}
+.group7bg .group7bg_content .group7-row2 .aliment2 p {
+  font-size: 16px;
+  padding: 0px 0 10px 10px;
+}
+
+.group7bg .group7bg_content .group7-row3 {
+  padding: 150px 0 0 50px;
+  color: white;
+}
+.group7bg .group7bg_content .group7-row3 .aliment1 .img1,
+.aliment1-text {
+  float: left;
+}
+.group7bg .group7bg_content .group7-row3 .aliment1 h3 {
+  font-size: 25px;
+  padding: 55px 0 10px 30px;
+}
+.group7bg .group7bg_content .group7-row3 .aliment1 h4 {
+  font-size: 40px;
+  padding: 0px 0 10px 30px;
+  font-weight: 400;
+}
+.group7bg .group7bg_content .group7-row3 .aliment1 p {
+  font-size: 16px;
+  padding: 0px 0 10px 30px;
+}
+.group7bg .group7bg_content .group7-row3 .aliment1,
+.aliment2 {
+  float: left;
+}
+
+.group7bg .group7bg_content .group7-row3 .aliment2 .img2,
+.aliment2-text {
+  float: left;
+}
+.group7bg .group7bg_content .group7-row3 .aliment2 h3 {
+  font-size: 25px;
+  padding: 55px 0 10px 10px;
+}
+.group7bg .group7bg_content .group7-row3 .aliment2 h4 {
+  font-size: 40px;
+  padding: 0px 0 10px 10px;
+  font-weight: 400;
+}
+.group7bg .group7bg_content .group7-row3 .aliment2 p {
+  font-size: 16px;
+  padding: 0px 0 10px 10px;
+}
+
+/* group 7 end */
+
+/* group 8 start */
+
+.group8bg {
+  width: 100%;
+  height: 550px;
+  background-color: #ffff;
+}
+.group8bg .group8bg_content {
+  text-align: center;
+  color: #68914f;
+}
+.group8bg .group8bg_content h1 {
+  font-size: 60px;
+  font-weight: 800;
+  font-family: "Berkshire Swash";
+  padding-top: 50px;
+}
+.group8bg .group8bg_content p {
+  font-size: 18px;
+  padding-top: 35px;
+}
+.group8bg .input {
+  padding: 50px 0 0 415px;
+}
+.group8bg .input input {
+  width: 520px;
+  height: 40px;
+  border-radius: 30px;
+}
+.group8bg .input .group8-a {
+  padding-top: 35px;
+}
+.group8bg .input a {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #537942;
+  padding: 10px 200px;
+  border-radius: 30px;
+  color: #ffff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+input[type="text"] {
+  border: 2px solid #537942;
+  box-sizing: border-box;
+  padding-left: 20px;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+/* group 8 end */
+
+/* group 9 start */
+
+.group9bg {
+  width: 100%;
+  height: 550px;
+  background-color: #537942;
+}
+.group9bg .group9bg_content .title,
+.about,
+.service,
+.others {
+  float: left;
+}
+
+.group9bg .group9bg_content .title {
+  padding: 130px 0 0 120px;
+}
+.group9bg .group9bg_content .title h3 {
+  font-size: 35px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: white;
+  font-family: "Berkshire Swash";
+  padding-bottom: 16px;
+}
+.group9bg .group9bg_content .title p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: white;
+}
+.group9bg .group9bg_content .title .social {
+  display: flex;
+}
+.group9bg .group9bg_content .title .social a {
+  color: white;
+  width: 40px;
+  height: 40px;
+  background: white;
+  border-radius: 70%;
+  color: #7f7770;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.group9bg .group9bg_content .title .social a {
+  margin: 20px 5px;
+}
+.fa-brands {
+  font-weight: 400;
+  color: #537942;
+}
+
+.group9bg .group9bg_content .about a {
+  display: block;
+  color: white;
+  padding-top: 13px;
+}
+.group9bg .group9bg_content .service a {
+  display: block;
+  color: white;
+  padding-top: 13px;
+}
+.group9bg .group9bg_content .others a {
+  display: block;
+  color: white;
+  padding-top: 13px;
+}
+.group9bg .group9bg_content .about,
+.service,
+.others {
+  padding: 130px 0 0 120px;
+}
+.group9bg .group9bg_content .about h3 {
+  font-size: 34px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: white;
+  font-family: "Berkshire Swash";
+}
+.group9bg .group9bg_content .service h3 {
+  font-size: 34px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: white;
+  font-family: "Berkshire Swash";
+}
+.group9bg .group9bg_content .others h3 {
+  font-size: 34px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: white;
+  font-family: "Berkshire Swash";
+}
+
+/* group 9 end */
